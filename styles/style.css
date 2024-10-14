@@ -1,0 +1,35 @@
+.header__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.listagem__header {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.listagem__header li {
+    display: flex;
+    align-items: center;
+}
+
+.listagem__header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.listagem__header h4 {
+    margin: 0;
+}
+
+.header__principal .nome {
+    margin-right: auto;
+    font-size: 1.5em;
+}
