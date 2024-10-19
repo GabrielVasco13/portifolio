@@ -3,16 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ccc;
+    background-color: whitesmoke;
+
 }
 
 .listagem__header {
     list-style: none;
     display: flex;
     gap: 30px;
-    padding: 0;
-    margin: 0;
 }
 
 .listagem__header li {

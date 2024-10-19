@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f5;
+    background-color: whitesmoke;
     padding: 20px;
     border-radius: 10px;
 }
@@ -35,7 +35,7 @@
 }
 
 .links__apresentacao a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -49,6 +49,7 @@
 }
 
 .imagem__link {
+    text-decoration: none;
     width: 12px;
     height: 12px;
     margin-left: 0px;

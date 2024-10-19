@@ -1,0 +1,31 @@
+.sobre__mim {
+    background-color: #e7f0ff;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.sobre__mim__conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.sobre__mim__conteudo h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sobre__mim__conteudo p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.sobre__mim__conteudo img {
+    margin-top: 20px;
+    width: 150px;
+    opacity: 0.8;
+}
