@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Ferreira Vasconcelos - Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/apresentacao.css">
     <link rel="stylesheet" href="styles/sobre_mim.css">
     <link rel="stylesheet" href="styles/hobbies_skills.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/rodape.css">
 </head>
 
 <body>
@@ -134,7 +138,7 @@
                 <div class="hobbies-list">
                     <div class="hobby-item">
                         <img src="assets/icons/hobbies/treino.svg" alt="Treinar">
-                        <p>Treinar</p>
+                        <p>Ir treinar</p>
                     </div>
                     <div class="hobby-item">
                         <img src="assets/icons/hobbies/livros.svg" alt="Ler livros">
@@ -157,10 +161,41 @@
         </div>
     </section>
 
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-image">
+                <img src="assets/icons/contato/entre_contato.svg" alt="Telefone antigo">
+            </div>
+            <div class="contact-form">
+                <h2>Contato</h2>
+                <p>Quer entrar em contato comigo? <br><br> Preencha o formulário ao lado e entrarei em contato o mais
+                    rápido possível!</p>
+                <form id="contactForm">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome">
 
-    <footer>
-        <p>© 2024 Fulana de Tal - Todos os direitos reservados</p>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail">
+
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Assunto">
+
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Sua mensagem"></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+                    <p id="form-message" style="display:none;"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>© 2024 Gabriel Ferreira Vasconcelos - Todos os direitos reservados</p>
     </footer>
+
+    <script src="js/contact_form.js"></script>
 </body>
 
 </html>

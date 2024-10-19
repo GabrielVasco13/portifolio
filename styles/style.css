@@ -4,7 +4,6 @@
     align-items: center;
     padding: 20px 40px;
     background-color: whitesmoke;
-
 }
 
 .listagem__header {
@@ -30,4 +29,19 @@
 .header__principal .nome {
     margin-right: auto;
     font-size: 1.5em;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#form-message {
+    display: none;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+#form-message.visible {
+    display: block;
 }
