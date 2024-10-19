@@ -1,0 +1,56 @@
+.apresentacao__caixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.texto__apresentacao {
+    margin-left: 24px;
+    max-width: 60%;
+}
+
+.texto__apresentacao h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.texto__apresentacao p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.links__apresentacao {
+    display: flex;
+}
+
+.links__apresentacao a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.links__apresentacao a:hover {
+    text-decoration: underline;
+}
+
+
+.imagem__apresentacao {
+    width: 280px;
+    height: 280px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-right: 48px;
+    border: 4px solid #ccc;
+}
+
+.imagem__link {
+    width: 12px;
+    height: 12px;
+    margin-left: 0px;
+    margin-right: 48px;
+}
