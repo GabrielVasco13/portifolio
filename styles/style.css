@@ -31,10 +31,6 @@
     font-size: 1.5em;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-}
-
 #form-message {
     display: none;
     margin-top: 10px;
@@ -44,4 +40,42 @@ body {
 
 #form-message.visible {
     display: block;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
